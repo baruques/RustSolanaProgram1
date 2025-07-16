@@ -1,4 +1,28 @@
-test-ledger/
-target/
+# Rust
+/target
+**/*.rs.bk
+
+# Solana build outputs
 dist/
+*.so
+*.dSYM/
 *.log
+
+# Ledger & test validator outputs
+test-ledger/
+*.bak
+*.ldb
+*.snapshot
+
+# VSCode
+.vscode/
+
+# macOS & Linux
+.DS_Store
+*.swp
+
+# Node/npm (caso use JS em algum frontend)
+node_modules/
+
+# Python virtualenvs (se criar scripts auxiliares)
+.venv/
