@@ -1,1 +1,6 @@
-/target
+# Unindo as duas versões
+target/
+dist/
+*.DS_Store
+node_modules/
+
