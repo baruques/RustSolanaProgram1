@@ -1,6 +1,4 @@
-# Unindo as duas versões
+test-ledger/
 target/
 dist/
-*.DS_Store
-node_modules/
-
+*.log
